@@ -1,6 +1,6 @@
 ## Материалы к первой неделе
 
-* Материалы семинара sem01](https://github.com/hse-econ-data-science/dap_2021_spring/tree/main/sem01_intro)
+* [Материалы семинара sem01](https://github.com/hse-econ-data-science/dap_2021_spring/tree/main/sem01_intro)
 * [Задачи для семинара](https://official.contest.yandex.ru/contest/24363/enter/)
 * Прочитать про то [как писать код красиво (PEP 8)](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 
