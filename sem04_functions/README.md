@@ -1,4 +1,4 @@
-## Материалы к недели 4 (функции)
+## Материалы к неделе 4 (функции)
 
 * [Материалы семинара sem04](https://github.com/hse-econ-data-science/dap_2021_spring/tree/main/sem04_functions)
 
