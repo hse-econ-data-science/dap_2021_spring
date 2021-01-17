@@ -17,5 +17,5 @@ __Задачи для семинаров и самостоятельного р�
 
 __Ещё материалы:__ 
 
-* Объяснения и задачки на pythontutor по [https://pythontutor.ru/lessons/ifelse/ условиям] и циклам [https://pythontutor.ru/lessons/for_loop/ for] и [https://pythontutor.ru/lessons/while/ while].
-* Совсем краткий конспект на pythonworld по [https://pythonworld.ru/osnovy/cikly-for-i-while-operatory-break-i-continue-volshebnoe-slovo-else.html циклам] и [https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html условиям].
+* Объяснения и задачки на pythontutor по [условиям](https://pythontutor.ru/lessons/ifelse/) и циклам [for](https://pythontutor.ru/lessons/for_loop/) и [while](https://pythontutor.ru/lessons/while/).
+* Совсем краткий конспект на pythonworld по [циклам](https://pythonworld.ru/osnovy/cikly-for-i-while-operatory-break-i-continue-volshebnoe-slovo-else.html) и [условиям](https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html).
