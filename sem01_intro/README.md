@@ -1,8 +1,8 @@
 ## Материалы к первой неделе
 
-* [https://github.com/hse-econ-data-science/dap_2021_spring/tree/main/sem01_intro Материалы семинара sem01]
+* Материалы семинара sem01](https://github.com/hse-econ-data-science/dap_2021_spring/tree/main/sem01_intro)
 * [Задачи для семинара](https://official.contest.yandex.ru/contest/24363/enter/)
-* Прочитать про то [https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html как писать код красиво (PEP 8)]
+* Прочитать про то [как писать код красиво (PEP 8)](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 
 __Задание:__
 
@@ -11,5 +11,5 @@ __Задание:__
 
 __Если хотите мастерски писать в ноутбуках текст на маркдауне:__
 
-* [https://www.markdowntutorial.com/ 10-минутный урок по markdown синтаксису]
-* [https://guides.github.com/features/mastering-markdown/ Короткий гайд по markdown синтаксису]
+* [10-минутный урок по markdown синтаксису](https://www.markdowntutorial.com/)
+* [Короткий гайд по markdown синтаксису](https://guides.github.com/features/mastering-markdown/)
