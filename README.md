@@ -6,8 +6,9 @@
 - Если вы хотите скачать из репозитория конкретную папку, просто вставьте ссылку на неё [в сервис для скачки.](https://minhaskamal.github.io/DownGit/#/home)
 - Любые вопросы можно задавать в чат с технической поддержкой [![TG1](https://img.shields.io/badge/Telegram-chat-blue)](https://t.me/dap_2021_spring)
 - Канал с основными объявлениями [![TG1](https://img.shields.io/badge/Telegram-chat-blue)](https://t.me/joinchat/TzqFUCBXnQ4kB4YS)
--  Таблица с вашими оценками появится тут
--  Материалы прошлых лет: [2020_spring](https://github.com/hse-econ-data-science/eds_spring_2020)[2020_fall](https://github.com/hse-econ-data-science/dap_2020_fall)
+- [Таблица с вашими оценками](https://docs.google.com/spreadsheets/d/1EnnWqEnSaPU4lXSSR7B4Ku_oTjXTKvNifytbC_OsRho)
+- Материалы прошлых лет: [2020_spring](https://github.com/hse-econ-data-science/eds_spring_2020)[2020_fall](https://github.com/hse-econ-data-science/dap_2020_fall)
+
 
 
 ## Идеология курса
