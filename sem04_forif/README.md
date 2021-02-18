@@ -20,8 +20,12 @@ __Ещё материалы:__
 __Для отличников труда:__ 
 
 https://leetcode.com/problems/longest-palindromic-substring/
+
 https://leetcode.com/problems/last-stone-weight/
+
 https://leetcode.com/problems/max-consecutive-ones/
+
 https://leetcode.com/problems/merge-two-sorted-lists/
+
 https://leetcode.com/problems/3sum-closest/
 
