@@ -17,7 +17,7 @@ except:
     pass
 
 # подключим токен нашего бота
-bot = telebot.TeleBot("1701176503:AAHT_kw_I-Pa36-Cl_g4wZgV64iPMDApcHQ")
+bot = telebot.TeleBot("your_token")
 
 # напишем, что делать нашему боту при команде старт
 @bot.message_handler(commands=['start'])
