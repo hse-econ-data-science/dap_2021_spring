@@ -1,10 +1,23 @@
 import telebot
 from telebot import types
 import sqlite3
-from keyboard_functions import *
+
+# подключаем базу данных
+conn = sqlite3.connect('planner_hse.db')
+
+# курсор для работы с таблицами
+cursor = conn.cursor()
+
+try:
+    # sql запрос для создания таблицы
+    query = "CREATE TABLE \"planner\" (\"ID\" INTEGER UNIQUE, \"user_id\" INTEGER, \"plan\" TEXT, PRIMARY KEY (\"ID\"))"
+    # исполняем его –> ура, теперь у нас есть таблица, куда будем все сохранять!
+    cursor.execute(query)
+except:
+    pass
 
 # подключим токен нашего бота
-bot = telebot.TeleBot('your_token')
+bot = telebot.TeleBot("1701176503:AAHT_kw_I-Pa36-Cl_g4wZgV64iPMDApcHQ")
 
 # напишем, что делать нашему боту при команде старт
 @bot.message_handler(commands=['start'])
@@ -26,6 +39,10 @@ def send_keyboard(message, text="Привет, чем я могу тебе по�
 
     # отправим этот вариант в функцию, которая его обработает
     bot.register_next_step_handler(msg, callback_worker)
+
+@bot.message_handler(content_types=['text'])
+def handle_docs_audio(message):
+    send_keyboard(message, text="Я не понимаю :-( Выберите один из пунктов меню:")
 
 # напишем функции для каждого случая
 # эта добавляет строчку с планом в хранилище
@@ -90,7 +107,7 @@ def delete_one_plan_(msg):
 # привязываем функции к кнопкам на клавиатуре
 def callback_worker(call):
     if call.text == "Добавить дело в список":
-        msg = bot.send_message(call.chat.id, 'Давайте добавим первое дело! Напишите его в чат')
+        msg = bot.send_message(call.chat.id, 'Давайте добавим дело! Напишите его в чат')
         bot.register_next_step_handler(msg, add_plan)
 
     elif call.text == "Показать список дел":
@@ -119,10 +136,8 @@ def callback_worker(call):
         send_keyboard(call, "Чем еще могу помочь?")
 
     elif call.text == "Пока все!":
-        bot.send_message(call.chat.id, 'Хорошего дня!')
+        bot.send_message(call.chat.id, 'Хорошего дня! Когда захотите продолжнить нажмите на команду /start')
 
 
 
-
-# теперь бот постоянно запрашивает написал ли ему кто нибудь
-bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True)
