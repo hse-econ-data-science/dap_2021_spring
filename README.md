@@ -27,6 +27,7 @@ __Домашки:__
 - [Домашнее задание 1](https://official.contest.yandex.ru/contest/24478/enter/)  __Дедлайн:__ 10 февраля 23:59
 - [Домашнее задание 2](https://official.contest.yandex.ru/contest/24479/enter/)  __Дедлайн:__  7 марта 21:00 
 - [Домашнее задание 4](https://docs.google.com/document/d/148NnfNagW8pTlxi2nU5DVtQS3YoMmDbLN1HYdCVDo6c/edit?usp=sharing) __Дедлайн:__  6 июня 23:00
+- [Домашнее задание 5](https://docs.google.com/document/d/14oQgBT-yHmSC0eOzKHWiLJ_TbG1Q09Fc9d7IdFRDzpI/edit?usp=sharing) __Дедлайн:__  17 июня 21:00
 
 __Контрольные:__
 
